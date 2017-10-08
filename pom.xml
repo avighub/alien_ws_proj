@@ -40,6 +40,13 @@
                         <artifactId>javax.servlet-api</artifactId>
                         <version>3.0.1</version>
                     </dependency>
+                    <!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
+					<dependency>
+   						 <groupId>com.github.jsimone</groupId>
+    					 <artifactId>webapp-runner</artifactId>
+   						 <version>8.5.23.0</version>
+					</dependency>
+                    
                 </dependencies>
             </plugin>
         </plugins>

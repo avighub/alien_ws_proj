@@ -1,6 +1,5 @@
 package com.testws.wspoc;
 
-import java.util.Arrays;
 import java.util.List;
 
 import javax.ws.rs.GET;
