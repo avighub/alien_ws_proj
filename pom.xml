@@ -22,7 +22,7 @@
             <plugin>
                 <groupId>org.glassfish</groupId>
                 <artifactId>maven-embedded-glassfish-plugin</artifactId>
-                <version>${glassfish.version}</version>
+                <version>4.1.1</version>
                 <configuration>
                     <goalPrefix>embedded-glassfish</goalPrefix>
                     <app>C:/Users/Avishek/Documents/workspace/target/${project.build.finalName}.war</app>
@@ -45,6 +45,12 @@
    						 <groupId>com.github.jsimone</groupId>
     					 <artifactId>webapp-runner</artifactId>
    						 <version>8.5.23.0</version>
+					</dependency>
+                    <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+					<dependency>
+    					<groupId>org.apache.maven.plugins</groupId>
+    					<artifactId>maven-compiler-plugin</artifactId>
+    					<version>3.7.0</version>
 					</dependency>
                     
                 </dependencies>
@@ -82,8 +88,5 @@
         </dependency>
     </dependencies>
     <properties>
-        <jersey.version>1.20-SNAPSHOT</jersey.version>
-        <glassfish.version>1.19.4</glassfish.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>
